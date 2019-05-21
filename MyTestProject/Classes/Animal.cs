@@ -16,7 +16,7 @@ namespace MyTestProject.Classes
             Debug.WriteLine("Animal");
         }
 
-        public void Weight()
+        public virtual void Weight()
         {
             Debug.WriteLine("Weight from Superclass");
         }

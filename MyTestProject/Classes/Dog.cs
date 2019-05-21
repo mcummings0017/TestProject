@@ -10,13 +10,17 @@ namespace MyTestProject.Classes
 {
     class Dog : Animal, IAnimal
     {
-        public void Sound()
+        public new void Sound()
         {
             Debug.WriteLine("Bark");
         }
-        public void Weight()
+        public override void Weight()
         {
             Debug.WriteLine("Weight from Subclass");
+        }
+        public void Height()
+        {
+            Debug.WriteLine("Height from Subclass");
         }
     }
 }
