@@ -11,6 +11,7 @@ namespace MyTestProject.Classes
     class Animal : IAnimal
     {
         static public int speed = 10;
+
         public void Sound()
         {
             Debug.WriteLine("Animal");

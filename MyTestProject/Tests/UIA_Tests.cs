@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using MyTestProject.Classes;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,11 @@ namespace MyTestProject.Tests
         [Test]
         public void Test1()
         {
-            IUIAutomation a = new CUIAutomationClass();
+            IUIAutomation a = new CUIAutomation();
 
             IUIAutomationElement x = a.GetRootElement();
+
+            IUIAutomation2 b = new CUIAutomation8();
         }
     }
 }

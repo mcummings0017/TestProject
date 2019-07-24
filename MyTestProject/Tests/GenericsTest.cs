@@ -57,6 +57,15 @@ namespace MyTestProject.Tests
             Console.ReadLine();
         }
 
+
+        [Test]
+        public void Test2()
+        {
+            Func<int, int> multiply = x => x*x;
+            Func<int, int, int> multiply2 = (x, y) => x* y;
+        }
+
+
         public struct Rectangle<T>
         {
             // Generic fields
